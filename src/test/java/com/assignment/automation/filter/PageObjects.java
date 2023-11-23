@@ -36,7 +36,7 @@ public class PageObjects {
 				//If "all" the options are provided to be selected.
 				if(op.equals("all")) {						
 					for(WebElement e: checkBoxes) {
-						System.out.println("Clicking options from: " + filterName + " --> " + e.getText());
+						System.out.println("Clicking options from: " + filterName + " Category --> " + e.getText());
 						e.click();
 					}
 				}
@@ -45,7 +45,7 @@ public class PageObjects {
 					//This will take care of the particular options provided to be selected
 					List<WebElement> checkBoxesSelect =  driver.findElements(By.xpath("//span[@class='filter-display-name'][text()=' "+ op + " ']"));
 					for(WebElement e : checkBoxesSelect) {
-						System.out.println("Clicking Options from: "+filterName+ " --> " + e.getText());
+						System.out.println("Clicking Options from: "+filterName+ " Category --> " + e.getText());
 						e.click();
 					}
 				}
@@ -62,10 +62,10 @@ public class PageObjects {
 				}				
 			}	
 			if(counter == 0) {
-				System.out.println("No Options are selected from "+ filterName+ " Category");	
+				System.out.println(filterName+ " Category : No options are selected");	
 			}
 			else {
-				System.out.println("No options provided for selection but "+ counter + " option(s) already selected from "+ filterName+ " category");
+				System.out.println(filterName+ " Category : No options provided for selection but "+ counter + " option(s) were already selected previously");
 			}
 		}
 	}
