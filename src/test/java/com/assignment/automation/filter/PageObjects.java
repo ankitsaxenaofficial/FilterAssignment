@@ -44,9 +44,20 @@ public class PageObjects {
 
 					//This will take care of the particular options provided to be selected
 					List<WebElement> checkBoxesSelect =  driver.findElements(By.xpath("//span[@class='filter-display-name'][text()=' "+ op + " ']"));
+					if(checkBoxesSelect.size()!=0) {
 					for(WebElement e : checkBoxesSelect) {
+						String name = e.getText().trim();
+						if(name.equals(op)) {
 						System.out.println("Clicking Options from: "+filterName+ " Category --> " + e.getText());
 						e.click();
+						}
+						else {
+							System.out.println(op + " option not present in the "+filterName+ " Cateogry");
+						}
+					}
+					}
+					else {
+						System.out.println("Invalid option "+ op + " provided for the "+filterName+ " Cateogry");
 					}
 				}
 			}
