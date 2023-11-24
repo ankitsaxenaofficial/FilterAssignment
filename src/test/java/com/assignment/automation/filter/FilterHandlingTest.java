@@ -38,6 +38,9 @@ public class FilterHandlingTest {
 		//Now again no option is provided from the "Brands" category
 		obj.selectFilter("Brands");
 		
+		//Invalid Category provided - Computers is not present in the list of Category
+		obj.selectFilter("Computers", "New");
+		
 	}
 	
 	@AfterTest

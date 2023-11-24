@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-24T06:04:32 IST" name="Default suite" finished-at="2023-11-24T06:05:24 IST" duration-ms="52363">
+  <suite started-at="2023-11-24T06:41:16 IST" name="Default suite" finished-at="2023-11-24T06:42:01 IST" duration-ms="44998">
     <groups>
     </groups>
-    <test started-at="2023-11-24T06:04:32 IST" name="Default test" finished-at="2023-11-24T06:05:24 IST" duration-ms="52363">
+    <test started-at="2023-11-24T06:41:16 IST" name="Default test" finished-at="2023-11-24T06:42:01 IST" duration-ms="44998">
       <class name="com.assignment.automation.filter.FilterHandlingTest">
-        <test-method is-config="true" signature="setDriver()[pri:0, instance:com.assignment.automation.filter.FilterHandlingTest@3eb25e1a]" started-at="2023-11-24T06:04:32 IST" name="setDriver" finished-at="2023-11-24T06:04:52 IST" duration-ms="19752" status="PASS">
+        <test-method is-config="true" signature="setDriver()[pri:0, instance:com.assignment.automation.filter.FilterHandlingTest@3eb25e1a]" started-at="2023-11-24T06:41:16 IST" name="setDriver" finished-at="2023-11-24T06:41:27 IST" duration-ms="11058" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDriver -->
-        <test-method signature="filterCriteria()[pri:0, instance:com.assignment.automation.filter.FilterHandlingTest@3eb25e1a]" started-at="2023-11-24T06:04:52 IST" name="filterCriteria" finished-at="2023-11-24T06:05:24 IST" duration-ms="32069" status="PASS">
+        <test-method signature="filterCriteria()[pri:0, instance:com.assignment.automation.filter.FilterHandlingTest@3eb25e1a]" started-at="2023-11-24T06:41:27 IST" name="filterCriteria" finished-at="2023-11-24T06:42:01 IST" duration-ms="33297" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- filterCriteria -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.assignment.automation.filter.FilterHandlingTest@3eb25e1a]" started-at="2023-11-24T06:05:24 IST" name="tearDown" finished-at="2023-11-24T06:05:24 IST" duration-ms="454" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.assignment.automation.filter.FilterHandlingTest@3eb25e1a]" started-at="2023-11-24T06:42:01 IST" name="tearDown" finished-at="2023-11-24T06:42:01 IST" duration-ms="567" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
